@@ -28,13 +28,13 @@ export default function Contact() {
       <h1 className="text-4xl font-bold">Contact</h1>
       <p className="text-xl font-semibold">Get in touch with me</p>
       <div className="flex flex-col lg:flex-row gap-[20px]">
-        <div className="suggest bg-white mx-auto w-[320px] lg:w-[500px] px-[10px] py-[15px] md:p-[50px] rounded-2xl text-black">
+        <div className="suggest bg-white mx-auto w-[320px] sm:w-[500px] px-[10px] py-[15px] md:p-[50px] rounded-2xl text-black">
           <h2 className="font-bold text-orange md:text-2xl mb-2 md:mb-4">
             Recommended
           </h2>
           <div>{contactList}</div>
         </div>
-        <div className="suggest bg-white mx-auto w-[320px] lg:w-[500px] px-[10px] py-[15px] md:p-[50px] rounded-2xl text-black">
+        <div className="suggest bg-white mx-auto w-[320px] sm:w-[500px] px-[10px] py-[15px] md:p-[50px] rounded-2xl text-black">
           <h2 className="font-bold text-orange md:text-2xl mb-2 md:mb-4">
             Others (Click to open)
           </h2>
