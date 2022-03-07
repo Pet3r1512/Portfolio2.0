@@ -11,9 +11,22 @@ import {
   faListCheck,
   faContactBook,
   faBars,
+  faPhoneFlip,
+  faEnvelope,
+  faLocationPin,
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faHouse, faSchool, faKeyboard, faListCheck, faContactBook, faBars);
+library.add(
+  faHouse,
+  faSchool,
+  faKeyboard,
+  faListCheck,
+  faContactBook,
+  faBars,
+  faPhoneFlip,
+  faEnvelope,
+  faLocationPin
+);
 
 ReactDOM.render(
   <React.StrictMode>
