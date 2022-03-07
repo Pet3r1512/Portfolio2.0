@@ -23,6 +23,7 @@ export default function Home() {
           <a
             href="https://github.com/Pet3r1512"
             target={"_blank"}
+            rel="noreferrer"
             className="hover:text-yellow transition duration-[0.25s]"
           >
             <ion-icon className="" name="logo-github"></ion-icon>
@@ -30,6 +31,7 @@ export default function Home() {
           <a
             href="https://www.linkedin.com/in/peter-pham-6b02a2229/"
             target={"_blank"}
+            rel="noreferrer"
             className="hover:text-yellow transition duration-[0.25s]"
           >
             <ion-icon className="" name="logo-linkedin"></ion-icon>
