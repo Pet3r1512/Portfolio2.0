@@ -1,4 +1,4 @@
-import { call, mail, location, logoGithub, logoLinkedin } from 'ionicons/icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Contact() {
   const contactList = contactItem.map((item) => {
@@ -51,7 +51,7 @@ function ContactBox(props) {
   return (
     <p className="md:text-xl font-medium">
       <span className="text-yellow text-lg relative top-[2px] mr-2">
-      {props.icon}
+        <FontAwesomeIcon icon={props.icon} />
       </span>
       {props.desc}
     </p>
@@ -74,17 +74,17 @@ function OthersList(props) {
 const contactItem = [
   {
     name: "call",
-    icon: "<IonIcon icon={call} />",
+    icon: "phoneFlip",
     desc: "+84768058382 (Zalo)",
   },
   {
     name: "email",
-    icon: "<IonIcon icon={mail} />",
+    icon: "evelope",
     desc: "peter1512.dev@gmail.com",
   },
   {
     name: "location",
-    icon: "<IonIcon icon={location} />",
+    icon: "locationPin",
     desc: "Go Vap, Ho Chi Minh City, Vietnam",
   },
 ];
@@ -92,13 +92,13 @@ const contactItem = [
 const othersItem = [
   {
     name: "github",
-    icon: "<IonIcon icon={logoGithub} />b",
+    icon: "github",
     desc: "Github",
     href: "https://github.com/Pet3r1512",
   },
   {
     name: "linkedin",
-    icon: "<IonIcon icon={logoLinkedin} />",
+    icon: "linkedin",
     desc: "Linkedin",
     href: "https://www.linkedin.com/in/peter-pham-6b02a2229/",
   },
