@@ -1,3 +1,5 @@
+import { call, mail, location, logoGithub, logoLinkedin } from 'ionicons/icons';
+
 export default function Contact() {
   const contactList = contactItem.map((item) => {
     return (
@@ -49,7 +51,7 @@ function ContactBox(props) {
   return (
     <p className="md:text-xl font-medium">
       <span className="text-yellow text-lg relative top-[2px] mr-2">
-        <ion-icon name={props.icon}></ion-icon>
+      {props.icon}
       </span>
       {props.desc}
     </p>
@@ -72,17 +74,17 @@ function OthersList(props) {
 const contactItem = [
   {
     name: "call",
-    icon: "call",
+    icon: "<IonIcon icon={call} />",
     desc: "+84768058382 (Zalo)",
   },
   {
     name: "email",
-    icon: "mail",
+    icon: "<IonIcon icon={mail} />",
     desc: "peter1512.dev@gmail.com",
   },
   {
     name: "location",
-    icon: "location",
+    icon: "<IonIcon icon={location} />",
     desc: "Go Vap, Ho Chi Minh City, Vietnam",
   },
 ];
@@ -90,13 +92,13 @@ const contactItem = [
 const othersItem = [
   {
     name: "github",
-    icon: "logo-github",
+    icon: "<IonIcon icon={logoGithub} />b",
     desc: "Github",
     href: "https://github.com/Pet3r1512",
   },
   {
     name: "linkedin",
-    icon: "logo-linkedin",
+    icon: "<IonIcon icon={logoLinkedin} />",
     desc: "Linkedin",
     href: "https://www.linkedin.com/in/peter-pham-6b02a2229/",
   },
