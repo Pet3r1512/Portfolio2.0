@@ -59,7 +59,7 @@ function ContactBox(props) {
 function OthersList(props) {
   return (
     <div>
-      <a className="md:text-xl font-medium" href={props.href} target="_blank">
+      <a className="md:text-xl font-medium" href={props.href} target="_blank" rel="noreferrer">
         <span className="text-yellow text-lg relative top-[2px] mr-2">
           <ion-icon name={props.icon}></ion-icon>
         </span>
