@@ -61,4 +61,11 @@ const projectsItem = [
     desc: "This is my homework on Web and Application Programming at University. This project is a website that contains 5 web pages. In addition, my teacher only needs his students to be accustomed to CSS but I want to challenge myself to turn this simple homework into a stunning website based on Nike's homepage and a design on Dribbble.com",
     used: "HTML5, Sass, Figma",
   },
+  {
+    time: "Mar 2022",
+    name: "MovieLand",
+    link: "https://create-react-app-movie-land.vercel.app/",
+    desc: "Moving forward to React Js, I want to create a search website and I choose Movie Land as the first React project. This website contains many films with their name and the year when it was introduced. You can search for your favorite film's information by typing the name inside the search bar.",
+    used: "React, Bootstrap, OMDb API,
+  }
 ];
