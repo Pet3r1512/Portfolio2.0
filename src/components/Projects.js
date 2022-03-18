@@ -66,6 +66,6 @@ const projectsItem = [
     name: "MovieLand",
     link: "https://create-react-app-movie-land.vercel.app/",
     desc: "Moving forward to React Js, I want to create a search website and I choose Movie Land as the first React project. This website contains many films with their name and the year when it was introduced. You can search for your favorite film's information by typing the name inside the search bar.",
-    used: "React, Bootstrap, OMDb API",
+    used: "React, Tailwind, OMDb API",
   }
 ];
