@@ -148,10 +148,7 @@ const involvedItem = [
 
 const improvingItem = [
   {
-    name: "HTML(Canvas, SVG), CSS Grid",
-  },
-  {
-    name: "JavaScript, React Js",
+    name: "React Js",
   },
   {
     name: "UI/UX designs",
