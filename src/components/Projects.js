@@ -67,5 +67,12 @@ const projectsItem = [
     link: "https://create-react-app-movie-land.vercel.app/",
     desc: "Moving forward to React Js, I want to create a search website and I choose Movie Land as the first React project. This website contains many films with their name and the year when it was introduced. You can search for your favorite film's information by typing the name inside the search bar.",
     used: "React, Tailwind, OMDb API",
+  },
+  {
+   time: "Apr 2022",
+    name: "React-Tailwind Stater Template",
+    link: "https://github.com/Pet3r1512/react-tailwind-starter-template",
+    desc: "When I get used to ReactJS, it takes me a lot of time to set everything up whenever I start a new project. Therefore, I have created a template that everyone can use instead of setting each package and dependencies. This simple template includes ReactJs and Tailwind with Heroicons. You can learn how to use this template on my Github page.",
+    used: "Github",
   }
 ];
