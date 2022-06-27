@@ -79,7 +79,7 @@ const projectsItem = [
    time: "May - Jun 2022",
     name: "4CG Fashion Online Store",
     link: "https://4-cg-store.vercel.app/",
-    desc: "4CG is my project for the final test of Web and Application Programming at Ton Duc Thang University. This project is being done by a group of 4 members including me. Moreover, this project is built by NextJs, Tailwind, Prisma and Planetscale. Project 4CG is the most complicated and time-consumming that I have ever taken part in until now. I have improve my self a lots after completing this website.",
+    desc: "4CG is my project for the final test of Web and Application Programming at Ton Duc Thang University. This project is being done by a group of 4 members including me. Moreover, this project is built by NextJs, Tailwind, Prisma and Planetscale. Project 4CG is the most complicated and time-consumming that I have ever taken part in until now. I have improve myself a lots after completing this website.",
     used: "NextJs, Tailwind, Prisma and Planetscale",
   },
 ];
