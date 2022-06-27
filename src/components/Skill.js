@@ -122,7 +122,7 @@ const involvedItem = [
   },
   {
     name: "Frontend development: ",
-    list: "HTML5, CSS3 (CSS pre-processor: Sass, CSS framework: Bootstrap, Tailwind), JavaScript (JavaScript Library: React Js)",
+    list: "HTML5, CSS3 (CSS pre-processor: Sass, CSS framework: Bootstrap, Tailwind), JavaScript (JavaScript Library: React Js), ReactJs Framework: NextJs, Database setup: Prisma",
   },
   {
     name: "Object-oriented programming (OOP): ",
@@ -148,7 +148,7 @@ const involvedItem = [
 
 const improvingItem = [
   {
-    name: "React Js",
+    name: "React Js, Next Js",
   },
   {
     name: "UI/UX designs",
@@ -156,9 +156,6 @@ const improvingItem = [
 ];
 
 const learningItem = [
-  {
-    name: "Back-end development: PHP, Python (Flask)",
-  },
   {
     name: "Database, Microsoft SQL Sever, Git",
   },
