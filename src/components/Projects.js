@@ -74,5 +74,12 @@ const projectsItem = [
     link: "https://github.com/Pet3r1512/react-tailwind-starter-template",
     desc: "When I get used to ReactJS, it takes me a lot of time to set everything up whenever I start a new project. Therefore, I have created a template that everyone can use instead of setting each package and dependencies. This simple template includes ReactJs and Tailwind with Heroicons. You can learn how to use this template on my Github page.",
     used: "Github",
-  }
+  },
+  {
+   time: "May - Jun 2022",
+    name: "4CG Fashion Online Store",
+    link: "https://4-cg-store.vercel.app/",
+    desc: "4CG is my project for the final test of Web and Application Programming at Ton Duc Thang University. This project is being done by a group of 4 members including me. Moreover, this project is built by NextJs, Tailwind, Prisma and Planetscale. Project 4CG is the most complicated and time-consumming that I have ever taken part in until now. I have improve my self a lots after completing this website.",
+    used: "NextJs, Tailwind, Prisma and Planetscale",
+  },
 ];
