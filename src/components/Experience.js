@@ -23,8 +23,15 @@ const experience_info = [
         company: "CareerLink/VietCV.io",
         position: "Front-end Developer",
         type: "Intern",
-        time: "July 2022 - Now",
+        time: "Jult 2022 - Oct 2022",
     },
+    {
+        id: 2,
+        company: "Aureole IT",
+        position: "Software Engineer",
+        type: "Intern",
+        time: "Nov 2022 - Now",
+    }
 ]
 
 const vietcv_io_link = <a className="text-orange underline" href="https://vietcv.io/templates" target="_blank">Vietcv.io</a>
