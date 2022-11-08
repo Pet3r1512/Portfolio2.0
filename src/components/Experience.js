@@ -2,19 +2,19 @@ export default function Experience() {
     const experience_list = experience_info.map(item => {
         return <Experience_item key={item.id} company={item.company} position={item.position} time={item.time} type={item.type} />
     })
-  return (
-    <div className="experience mt-24 md:mt-0 md:min-h-screen flex flex-col justify-center items-center px-[20px] sm:px-24" id="experience">
-        <h2 className="text-orange text-4xl text-center font-bold mb-[10px]">
-            Experience
-        </h2>
-        <p className="text-gray text-xl font-semibold mb-[50px]">
-            Where I have worked at?
-        </p>
-        <div className="min-w-[80vw] md:min-w-[75vw] mx-auto px-[25px] md:px-0">
-            {experience_list}
+    return (
+        <div className="experience mt-24 md:mt-0 md:min-h-screen flex flex-col justify-center items-center px-[20px] sm:px-24" id="experience">
+            <h2 className="text-orange text-4xl text-center font-bold mb-[10px]">
+                Experience
+            </h2>
+            <p className="text-gray text-xl font-semibold mb-[50px]">
+                Where I have worked at?
+            </p>
+            <div className="min-w-[80vw] md:min-w-[75vw] mx-auto px-[25px] md:px-0">
+                {experience_list}
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 const experience_info = [
@@ -24,25 +24,45 @@ const experience_info = [
         position: "Front-end Developer",
         type: "Intern",
         time: "Jult 2022 - Oct 2022",
+        detail: {
+            job_desc: {
+                1: "Creating CV templates base on Designer's models",
+                2: "Publicing the templates to {vietcv_io_link}",
+                3: "Improving UI/UX by using ReactJS",
+            },
+            skills_enhance: {
+                1: "HTML5 (HAML), CSS3 (CSS pre-processor: Sass, Scss, CSS framework: Bootstrap)",
+                2: "ReactJS",
+                3: "UI/UX Designing",
+            },
+            skills_learning: {
+                1: "Database Query: GraphQL",
+                2: "TypeScript, Ruby"
+            }
+        }
     },
-//     {
-//         id: 2,
-//         company: "Aureole IT",
-//         position: "Software Engineer",
-//         type: "Intern",
-//         time: "Nov 2022 - Now",
-//     }
+    {
+        id: 2,
+        company: "Aureole IT",
+        position: "Software Engineer",
+        type: "Intern",
+        time: "Nov 2022 - Now",
+        detail: {
+            job_desc: {},
+            skills_enhance: {},
+            skills_learning: {},
+        }
+    }
 ]
 
 const vietcv_io_link = <a className="text-orange underline" href="https://vietcv.io/templates" target="_blank">Vietcv.io</a>
-
 
 function Experience_item(props) {
     return (
         <div className="flex flex-col gap-y-2">
             <div>
                 <span className="text-yellow text-3xl font-bold">{props.position}</span>{"     "}
-               <span className="text-xl font-semibold text-gray">{props.type}</span>
+                <span className="text-xl font-semibold text-gray">{props.type}</span>
             </div>
             <div className="flex justify-between max-w-7xl">
                 <h3 className="text-2xl font-semibold">
@@ -50,29 +70,6 @@ function Experience_item(props) {
                     {"     "}
                     {props.company}</h3>
                 <p className="text-xl text-gray">{props.time}</p>
-            </div>
-            <div>
-                <h3 className="text-lg font-bold">Job description: </h3>
-                <div className="text-md font-normal text-gray">
-                    <p>- Creating CV templates base on Designer's models</p>
-                    <p>- Publicing the templates to {vietcv_io_link}</p>
-                    <p>- Improving UI/UX by using ReactJS</p>
-                </div>
-            </div>
-            <div>
-                <h3 className="text-lg font-bold">Skills enhancing: </h3>
-                <div className="text-gray">
-                    <p>- {"HTML5 (HAML), CSS3 (CSS pre-processor: Sass, Scss, CSS framework: Bootstrap)"}</p>
-                    <p>- ReactJS</p>
-                    <p>- UI/UX Designing</p>
-                </div>
-            </div>
-            <div>
-                <h3 className="text-lg font-bold">Skills learning: </h3>
-                <div className="text-gray">
-                    <p>- Database Query: GraphQL</p>
-                    <p>- TypeScript, Ruby</p>
-                </div>
             </div>
         </div>
     )
