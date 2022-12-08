@@ -10,7 +10,7 @@ export default function Experience() {
             <p className="text-gray text-xl font-semibold mb-[50px]">
                 Where I have worked at?
             </p>
-            <div className="min-w-[80vw] md:min-w-[75vw] mx-auto px-[25px] md:px-0">
+            <div className="min-w-[80vw] md:min-w-[75vw] mx-auto px-[25px] md:px-0 flex flex-col gap-y-2">
                 {experience_list}
             </div>
         </div>
