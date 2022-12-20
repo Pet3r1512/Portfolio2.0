@@ -53,7 +53,7 @@ const experience_info = [
                 2: "Working in a professional environment"
             },
             skills_enhance: {
-                1: "ReactJS Framework (NextJS),
+                1: "ReactJS Framework (NextJS)",
                 2: "Database: Firebase",
                 3: "UI/UX Designing: Figma"
             },
