@@ -48,9 +48,18 @@ const experience_info = [
         type: "Intern",
         time: "Nov 2022 - Now",
         detail: {
-            job_desc: {},
-            skills_enhance: {},
-            skills_learning: {},
+            job_desc: {
+                1: "Build websites base on AGILE protocol",
+                2: "Working in a professional environment"
+            },
+            skills_enhance: {
+                1: "ReactJS Framework (NextJS)
+                2: "Database: Firebase"
+                3: "UI/UX Designing: Figma"
+            },
+            skills_learning: {
+                1: "Redux"
+            },
         }
     }
 ]
