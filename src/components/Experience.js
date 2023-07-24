@@ -73,6 +73,7 @@ const experience_info = [
                 1: "Build an official website from scratch",
                 2: "Take responsibility for enhancing online segment",
                 3: "Division of work among other members"
+            },
             skills_enhance: {
                 1: "ReactJS Framework (NextJS)",
                 2: "Database: Postgres, Prisma, Supabase(Images storage)",
