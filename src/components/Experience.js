@@ -26,7 +26,7 @@ const experience_info = [
         time: "Jult 2022 - Oct 2022",
         detail: {
             job_desc: {
-                1: "Creating CV templates base on Designer's models",
+                1: "Creating CV templates based on Designer's models",
                 2: "Publicing the templates to {vietcv_io_link}",
                 3: "Improving UI/UX by using ReactJS",
             },
@@ -46,10 +46,10 @@ const experience_info = [
         company: "Aureole IT",
         position: "Software Engineer",
         type: "Intern",
-        time: "Nov 2022 - Now",
+        time: "Nov - Dec 2022",
         detail: {
             job_desc: {
-                1: "Build websites base on AGILE protocol",
+                1: "Build websites based on AGILE protocol",
                 2: "Working in a professional environment"
             },
             skills_enhance: {
@@ -59,6 +59,28 @@ const experience_info = [
             },
             skills_learning: {
                 1: "Redux"
+            },
+        }
+    },
+    {
+        id: 3,
+        company: "Balan Coffee & Roastery",
+        position: "Web Developer",
+        type: "Freelancer",
+        time: "Jun 2023 - Now",
+        detail: {
+            job_desc: {
+                1: "Build an official website from scratch",
+                2: "Take responsibility for enhancing online segment",
+                3: "Division of work among other members"
+            skills_enhance: {
+                1: "ReactJS Framework (NextJS)",
+                2: "Database: Postgres, Prisma, Supabase(Images storage)",
+                3: "UI: Tailwind, Tailwind Material"
+            },
+            skills_learning: {
+                1: "Postgres",
+                2: "NextJS"
             },
         }
     }
